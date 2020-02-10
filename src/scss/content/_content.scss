@@ -1,0 +1,46 @@
+.content {
+	&__inner {
+		padding: $global-spacing*2;
+		background: #fff;
+		border-radius: $global-border-radius;
+	}
+
+	&__intro {
+		font-size: $global-font-size-l;
+		text-align: center;
+		line-height: 1.5;
+	}
+
+	&__actions {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		text-align: center;
+		transform: translateY(50%);
+	}
+
+	&__form {
+		margin-bottom: 0;
+
+		div:last-child, 
+		p:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+.footnote {
+	margin-top: $global-spacing;
+	font-size: $global-font-size-s;
+}
+
+@media only screen and (max-width: $breakpoint-tablet-portrait) {
+
+	.content {
+		&__inner {
+			padding: $global-spacing;
+		}
+	}
+
+}

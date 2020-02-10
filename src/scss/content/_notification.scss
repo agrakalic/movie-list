@@ -1,0 +1,18 @@
+.notification {
+  position: fixed;
+  top: $global-spacing;
+  left: $global-spacing;
+  padding: $global-spacing/2 $global-spacing;
+  background: rgba(0,0,0,.3);
+  color: #fff;
+  font-size: $global-font-size-s;
+  transition: $global-transition;
+  opacity: 0;
+  visibility: hidden;
+
+  &__active {
+    opacity: 1;
+    visibility: visible;
+  }
+
+}
