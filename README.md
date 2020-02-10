@@ -42,5 +42,5 @@ npm run build
 First is used during the development process, it sets a watch and hot module replacement tasks running and is starts the local server. The second one compiles the entire app and make it ready for production.
 Development server runs on 
 ```bash
-http://localhost:5000/
+http://localhost:1234/
 ```
