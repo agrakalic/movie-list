@@ -7,7 +7,7 @@ Also, the part of this project is bundled with [Parcel](https://parceljs.org/) s
 npm install -g parcel-bundler
 ```
 ## Information
-The app consists of two main parts: frontend and the backend, each run separately. Backend is a run with NodeJS / Express while front is a React / Redux application.
+The app consists of two main parts: frontend and the backend, each run separately. Backend is powered by NodeJS / Express while front is a React / Redux application.
 ## Backend 
 Go to the `/api` folder and run 
 ```bash
