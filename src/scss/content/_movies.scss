@@ -6,7 +6,7 @@
   position: relative;
   display: flex;
   border-bottom: $global-border;
-  padding: $global-spacing 0;
+  padding: $global-spacing 100px $global-spacing 0;
   align-items: center;
   transition: $global-transition;
   background: #fff;
@@ -68,7 +68,16 @@
 @media only screen and (max-width: $breakpoint-tablet-portrait) {
 
 	.movie {
-		padding: $global-spacing/2 0;
-	}
+		padding: $global-spacing/2 50px $global-spacing/2 0;
+  
+    &__actions {
+      display: flex;
+      flex-direction: column;
+
+      button {
+        margin: 5px 0;
+      }
+    }
+  }
 
 }
